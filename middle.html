@@ -1,0 +1,913 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>중학교 교육과정 | 2022 개정 교육과정</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="main-header middle-theme">
+        <nav class="nav-bar">
+            <a href="index.html" class="nav-home">🏠 홈</a>
+            <div class="nav-links">
+                <a href="elementary.html">초등학교</a>
+                <a href="middle.html" class="active">중학교</a>
+                <a href="high.html">고등학교</a>
+            </div>
+        </nav>
+        <h1>중학교 교육과정</h1>
+        <p class="subtitle">2022 개정 교육과정 | 1~3학년</p>
+    </header>
+
+    <main class="container">
+        <!-- 탭 네비게이션 -->
+        <div class="tab-navigation">
+            <button class="tab-btn active" data-tab="overview">개요</button>
+            <button class="tab-btn" data-tab="subjects">과목별</button>
+            <button class="tab-btn" data-tab="grades">학년별</button>
+            <button class="tab-btn" data-tab="curriculum-design">교육과정 설계</button>
+            <button class="tab-btn" data-tab="career">진로/고입</button>
+        </div>
+
+        <!-- 개요 탭 -->
+        <section id="overview" class="tab-content active">
+            <h2>중학교 교육과정 개요</h2>
+
+            <div class="info-box fade-in">
+                <h3>교육 목표</h3>
+                <ul>
+                    <li>심신의 조화로운 발달을 바탕으로 자아 존중감을 기르고, 다양한 지식과 경험을 통해 적극적으로 삶의 방향과 진로를 탐색한다.</li>
+                    <li>학습과 생활에 필요한 기본 능력을 기르고, 이를 활용하여 문제를 발견하고 해결할 수 있는 능력을 기른다.</li>
+                    <li>다양한 분야의 지식과 경험을 융합하여 창의적으로 생각하고 표현할 수 있는 능력과 태도를 기른다.</li>
+                    <li>공동체 의식을 바탕으로 타인을 존중하고 서로 소통하는 민주 시민의 자질과 태도를 기른다.</li>
+                </ul>
+            </div>
+
+            <div class="curriculum-structure fade-in">
+                <h3>편제 구조</h3>
+                <table class="curriculum-table">
+                    <thead>
+                        <tr>
+                            <th>구분</th>
+                            <th>교과(군)</th>
+                            <th>비고</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td rowspan="8">교과(군)</td>
+                            <td>국어</td>
+                            <td>442시간</td>
+                        </tr>
+                        <tr>
+                            <td>사회(역사 포함)/도덕</td>
+                            <td>510시간</td>
+                        </tr>
+                        <tr>
+                            <td>수학</td>
+                            <td>374시간</td>
+                        </tr>
+                        <tr>
+                            <td>과학/기술·가정/정보</td>
+                            <td>680시간</td>
+                        </tr>
+                        <tr>
+                            <td>체육</td>
+                            <td>272시간</td>
+                        </tr>
+                        <tr>
+                            <td>예술(음악/미술)</td>
+                            <td>272시간</td>
+                        </tr>
+                        <tr>
+                            <td>영어</td>
+                            <td>340시간</td>
+                        </tr>
+                        <tr>
+                            <td>선택</td>
+                            <td>170시간</td>
+                        </tr>
+                        <tr>
+                            <td>창의적 체험활동</td>
+                            <td colspan="2">306시간</td>
+                        </tr>
+                        <tr>
+                            <td><strong>총 수업 시간 수</strong></td>
+                            <td colspan="2"><strong>3,366시간</strong></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="key-changes-box fade-in">
+                <h3>2022 개정 교육과정 주요 변화</h3>
+                <div class="change-items">
+                    <div class="change-item">
+                        <span class="change-icon">💻</span>
+                        <div class="change-text">
+                            <h4>정보 교육 강화</h4>
+                            <p>정보 교과 시수 확대 (34시간 → 68시간)</p>
+                        </div>
+                    </div>
+                    <div class="change-item">
+                        <span class="change-icon">📚</span>
+                        <div class="change-text">
+                            <h4>자유학기제 개편</h4>
+                            <p>자유학년제에서 자유학기(1학기)로 운영</p>
+                        </div>
+                    </div>
+                    <div class="change-item">
+                        <span class="change-icon">🎯</span>
+                        <div class="change-text">
+                            <h4>선택과목 도입</h4>
+                            <p>학생 선택권 강화를 위한 선택과목 운영</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 과목별 탭 -->
+        <section id="subjects" class="tab-content">
+            <h2>과목별 교육과정</h2>
+
+            <div class="subject-accordion fade-in">
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        <span class="subject-icon">📖</span>
+                        <span>국어</span>
+                        <span class="accordion-arrow">▼</span>
+                    </button>
+                    <div class="accordion-content">
+                        <h4>교육 목적</h4>
+                        <p class="subject-purpose">국어로 이루어지는 이해·표현 활동 및 문법과 문학의 본질을 이해하고, 의사소통이 이루어지는 맥락의 다양한 요소를 고려하면서 품위 있고 개성 있는 국어를 사용하며, 국어문화를 향유하면서 국어의 발전과 국어문화 창조에 이바지하는 능력과 태도를 기른다.</p>
+                        <h4>영역별 내용</h4>
+                        <ul>
+                            <li><strong>듣기·말하기:</strong> 의사소통 맥락 고려, 토의·토론, 면담</li>
+                            <li><strong>읽기:</strong> 읽기 과정, 독서 방법, 글의 유형별 읽기</li>
+                            <li><strong>쓰기:</strong> 쓰기 과정, 다양한 유형의 글쓰기</li>
+                            <li><strong>문법:</strong> 음운, 단어, 문장, 담화, 국어의 역사</li>
+                            <li><strong>문학:</strong> 문학의 본질, 갈래별 특성, 문학 감상과 창작</li>
+                        </ul>
+                        <h4>핵심 성취기준</h4>
+                        <ul>
+                            <li>상황에 맞게 언어 예절을 갖추어 대화할 수 있다.</li>
+                            <li>글의 구조와 전개 방식을 파악하며 읽을 수 있다.</li>
+                            <li>목적과 독자를 고려하여 글을 쓸 수 있다.</li>
+                            <li>문학 작품을 다양한 관점에서 해석하고 평가할 수 있다.</li>
+                        </ul>
+                        <h4>평가 방법</h4>
+                        <div class="evaluation-info">
+                            <span class="eval-tag">지필평가</span>
+                            <span class="eval-tag">수행평가</span>
+                            <span class="eval-tag">논술형</span>
+                            <span class="eval-tag">발표/토론</span>
+                        </div>
+                        <p class="eval-note">※ 자유학기 시 100% 수행평가</p>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        <span class="subject-icon">🔢</span>
+                        <span>수학</span>
+                        <span class="accordion-arrow">▼</span>
+                    </button>
+                    <div class="accordion-content">
+                        <h4>교육 목적</h4>
+                        <p class="subject-purpose">수학의 개념, 원리, 법칙을 이해하고 기능을 습득하여 주변의 여러 가지 현상을 수학적으로 관찰하고 해석하며, 수학적으로 추론하고 의사소통하는 능력을 길러 창의·융합적 사고력을 기른다.</p>
+                        <h4>영역별 내용</h4>
+                        <ul>
+                            <li><strong>수와 연산:</strong> 정수와 유리수, 소인수분해, 제곱근과 실수</li>
+                            <li><strong>문자와 식:</strong> 문자와 식, 일차방정식, 연립방정식, 이차방정식, 일차부등식</li>
+                            <li><strong>함수:</strong> 좌표평면과 그래프, 일차함수, 이차함수</li>
+                            <li><strong>기하:</strong> 기본 도형, 작도와 합동, 삼각형과 사각형의 성질, 도형의 닮음, 피타고라스 정리, 삼각비, 원의 성질</li>
+                            <li><strong>확률과 통계:</strong> 자료의 정리와 해석, 확률과 그 기본 성질, 대푯값과 산포도, 상관관계</li>
+                        </ul>
+                        <h4>핵심 성취기준</h4>
+                        <ul>
+                            <li>실수의 개념을 이해하고 사칙연산을 할 수 있다.</li>
+                            <li>방정식과 부등식을 세우고 해를 구할 수 있다.</li>
+                            <li>함수의 개념을 이해하고 그래프를 그릴 수 있다.</li>
+                            <li>도형의 성질을 이해하고 증명할 수 있다.</li>
+                        </ul>
+                        <h4>평가 방법</h4>
+                        <div class="evaluation-info">
+                            <span class="eval-tag">지필평가</span>
+                            <span class="eval-tag">수행평가</span>
+                            <span class="eval-tag">서술형</span>
+                            <span class="eval-tag">탐구활동</span>
+                        </div>
+                        <p class="eval-note">※ 문제 해결 과정 중심 평가, 서술형 문항 확대</p>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        <span class="subject-icon">🌍</span>
+                        <span>사회</span>
+                        <span class="accordion-arrow">▼</span>
+                    </button>
+                    <div class="accordion-content">
+                        <h4>교육 목적</h4>
+                        <p class="subject-purpose">사회 현상에 대한 기초적 지식과 탐구 능력을 익히고, 다양한 관점에서 사회 현상을 이해하며, 민주 시민으로서의 자질을 갖춘다.</p>
+                        <h4>영역별 내용</h4>
+                        <ul>
+                            <li><strong>개인과 사회생활:</strong> 사회화, 사회적 지위와 역할, 사회집단</li>
+                            <li><strong>헌법과 국가기관:</strong> 헌법의 의의, 국가기관의 역할</li>
+                            <li><strong>경제생활:</strong> 경제 문제와 선택, 시장과 가격</li>
+                            <li><strong>사회 변동과 사회 문제:</strong> 사회 변동, 현대 사회의 문제</li>
+                            <li><strong>지리:</strong> 내가 사는 세계, 인간 거주와 자연환경, 자원과 지속 가능한 발전</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        <span class="subject-icon">📜</span>
+                        <span>역사</span>
+                        <span class="accordion-arrow">▼</span>
+                    </button>
+                    <div class="accordion-content">
+                        <h4>교육 목적</h4>
+                        <p class="subject-purpose">세계사의 형성과 발전을 이해하고, 역사적 사고력과 판단력을 함양하여 세계 시민으로서의 자질과 태도를 기른다.</p>
+                        <h4>영역별 내용</h4>
+                        <ul>
+                            <li><strong>문명의 발생과 고대 세계의 형성:</strong> 역사의 의미, 세계 여러 지역의 선사 문화와 고대 문명</li>
+                            <li><strong>세계 종교의 확산과 지역 문화의 형성:</strong> 동아시아 문화권, 이슬람 문화권, 유럽 문화권</li>
+                            <li><strong>교류의 확대와 전통사회의 발전:</strong> 몽골 제국과 교류, 동아시아 전통 사회, 서아시아와 인도, 유럽의 변화</li>
+                            <li><strong>제국주의와 민족 운동:</strong> 시민 혁명과 산업화, 제국주의, 민족 운동</li>
+                            <li><strong>현대 세계의 전개:</strong> 세계대전, 냉전과 탈냉전, 세계화와 현대 사회</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        <span class="subject-icon">🔬</span>
+                        <span>과학</span>
+                        <span class="accordion-arrow">▼</span>
+                    </button>
+                    <div class="accordion-content">
+                        <h4>교육 목적</h4>
+                        <p class="subject-purpose">자연 현상에 대한 호기심과 흥미를 가지고 탐구하여 과학적 소양을 기르고, 일상생활의 문제를 과학적으로 해결하는 능력을 기른다.</p>
+                        <h4>영역별 내용</h4>
+                        <ul>
+                            <li><strong>운동과 에너지:</strong> 힘과 운동, 일과 에너지, 전기와 자기</li>
+                            <li><strong>물질:</strong> 물질의 구성, 화학 반응, 물질의 특성</li>
+                            <li><strong>생명:</strong> 생물의 구조와 에너지, 항상성과 몸의 조절, 생식과 유전</li>
+                            <li><strong>지구와 우주:</strong> 지권의 변화, 수권과 해수의 순환, 기권과 날씨, 태양계</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        <span class="subject-icon">💻</span>
+                        <span>정보</span>
+                        <span class="accordion-arrow">▼</span>
+                    </button>
+                    <div class="accordion-content">
+                        <h4>교육 목적</h4>
+                        <p class="subject-purpose">컴퓨팅 사고력을 바탕으로 디지털 사회의 문제를 창의적으로 해결하고, 정보윤리를 바탕으로 디지털 시민의식을 함양한다.</p>
+                        <h4>영역별 내용</h4>
+                        <ul>
+                            <li><strong>컴퓨팅 시스템:</strong> 컴퓨터의 구성과 동작 원리, 운영체제의 기능</li>
+                            <li><strong>데이터:</strong> 디지털 데이터의 표현, 데이터 수집과 관리</li>
+                            <li><strong>알고리즘과 프로그래밍:</strong> 문제해결과 알고리즘, 프로그래밍</li>
+                            <li><strong>인공지능:</strong> 인공지능의 이해, 인공지능의 활용</li>
+                            <li><strong>디지털 문화:</strong> 디지털 사회와 직업, 정보 보호와 보안, 저작권</li>
+                        </ul>
+                        <h4>핵심 성취기준</h4>
+                        <ul>
+                            <li>컴퓨팅 시스템의 구성과 동작 원리를 이해할 수 있다.</li>
+                            <li>알고리즘을 설계하고 프로그래밍으로 구현할 수 있다.</li>
+                            <li>인공지능의 원리를 이해하고 실생활에 활용할 수 있다.</li>
+                            <li>정보윤리를 준수하고 디지털 시민의식을 갖출 수 있다.</li>
+                        </ul>
+                        <h4>평가 방법</h4>
+                        <div class="evaluation-info">
+                            <span class="eval-tag">실습평가</span>
+                            <span class="eval-tag">프로젝트</span>
+                            <span class="eval-tag">포트폴리오</span>
+                            <span class="eval-tag">SW산출물</span>
+                        </div>
+                        <p class="eval-note">※ 2022 개정 시수 확대 (34→68시간), 실습 중심 평가</p>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        <span class="subject-icon">🔤</span>
+                        <span>영어</span>
+                        <span class="accordion-arrow">▼</span>
+                    </button>
+                    <div class="accordion-content">
+                        <h4>교육 목적</h4>
+                        <p class="subject-purpose">영어 의사소통 역량을 함양하여 다양한 상황에서 영어로 소통하고, 영어 학습을 통해 다른 문화를 이해하고 존중하는 태도를 기른다.</p>
+                        <h4>영역별 내용</h4>
+                        <ul>
+                            <li><strong>듣기:</strong> 대화, 담화 이해, 주제 파악</li>
+                            <li><strong>말하기:</strong> 의사소통, 발표, 대화</li>
+                            <li><strong>읽기:</strong> 다양한 유형의 글 읽기, 요약, 추론</li>
+                            <li><strong>쓰기:</strong> 문장 쓰기, 단락 쓰기, 글의 유형별 쓰기</li>
+                        </ul>
+                        <h4>어휘 및 문법</h4>
+                        <p>중학교 권장 어휘 수: 2,400개 이내 (초등 750개 포함)</p>
+                        <h4>핵심 성취기준</h4>
+                        <ul>
+                            <li>일상생활의 다양한 주제에 관한 말이나 대화를 듣고 이해할 수 있다.</li>
+                            <li>일상적인 주제에 대해 자신의 의견을 영어로 표현할 수 있다.</li>
+                            <li>다양한 유형의 글을 읽고 세부 정보와 주제를 파악할 수 있다.</li>
+                            <li>간단한 글을 목적에 맞게 영어로 쓸 수 있다.</li>
+                        </ul>
+                        <h4>평가 방법</h4>
+                        <div class="evaluation-info">
+                            <span class="eval-tag">듣기평가</span>
+                            <span class="eval-tag">말하기평가</span>
+                            <span class="eval-tag">읽기평가</span>
+                            <span class="eval-tag">쓰기평가</span>
+                        </div>
+                        <p class="eval-note">※ 4기능 균형 평가, 의사소통 중심</p>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        <span class="subject-icon">🏠</span>
+                        <span>기술·가정</span>
+                        <span class="accordion-arrow">▼</span>
+                    </button>
+                    <div class="accordion-content">
+                        <h4>교육 목적</h4>
+                        <p class="subject-purpose">기술과 가정생활에 필요한 실천적 지식과 기능을 습득하고, 자립적인 생활능력과 미래 사회에 적응하는 능력을 기른다.</p>
+                        <h4>기술 영역</h4>
+                        <ul>
+                            <li>기술의 세계: 기술의 발달과 사회, 기술 시스템</li>
+                            <li>기술 활용: 제조 기술, 수송 기술, 정보통신 기술</li>
+                        </ul>
+                        <h4>가정 영역</h4>
+                        <ul>
+                            <li>인간발달과 가족: 청소년의 발달, 가족관계</li>
+                            <li>생활자원과 관리: 의복 관리, 식품과 조리, 주거 환경</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        <span class="subject-icon">⚖️</span>
+                        <span>도덕</span>
+                        <span class="accordion-arrow">▼</span>
+                    </button>
+                    <div class="accordion-content">
+                        <h4>영역별 내용</h4>
+                        <ul>
+                            <li><strong>자신과의 관계:</strong> 도덕적 주체로서의 나, 삶의 목적</li>
+                            <li><strong>타인과의 관계:</strong> 타인 존중, 갈등 해결</li>
+                            <li><strong>사회·공동체와의 관계:</strong> 인권, 문화 다양성, 통일</li>
+                            <li><strong>자연·초월과의 관계:</strong> 자연과의 조화, 과학과 윤리</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 학년별 탭 -->
+        <section id="grades" class="tab-content">
+            <h2>학년별 교육과정</h2>
+
+            <div class="grade-tabs">
+                <button class="grade-btn active" data-grade="grade1">1학년</button>
+                <button class="grade-btn" data-grade="grade2">2학년</button>
+                <button class="grade-btn" data-grade="grade3">3학년</button>
+            </div>
+
+            <div id="grade1" class="grade-content active">
+                <h3>중학교 1학년</h3>
+                <div class="info-box highlight">
+                    <h4>자유학기제</h4>
+                    <p>중학교 1학년 1학기 또는 2학기 중 한 학기를 자유학기로 운영하여 학생 참여형 수업과 과정 중심 평가를 강화합니다.</p>
+                </div>
+                <div class="grade-info">
+                    <div class="grade-card">
+                        <h4>국어</h4>
+                        <p>비유와 상징, 음운의 체계, 설명하는 글쓰기</p>
+                    </div>
+                    <div class="grade-card">
+                        <h4>수학</h4>
+                        <p>소인수분해, 정수와 유리수의 계산, 문자와 식, 좌표평면</p>
+                    </div>
+                    <div class="grade-card">
+                        <h4>사회</h4>
+                        <p>내가 사는 세계, 인간 거주와 자연환경, 개인과 사회생활</p>
+                    </div>
+                    <div class="grade-card">
+                        <h4>과학</h4>
+                        <p>지권의 변화, 여러 가지 힘, 생물의 구조와 에너지</p>
+                    </div>
+                    <div class="grade-card">
+                        <h4>영어</h4>
+                        <p>일상적 대화, 간단한 글 읽고 쓰기, 기초 문법</p>
+                    </div>
+                    <div class="grade-card">
+                        <h4>정보</h4>
+                        <p>컴퓨팅 시스템의 이해, 데이터의 표현, 알고리즘 기초</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="grade2" class="grade-content">
+                <h3>중학교 2학년</h3>
+                <div class="grade-info">
+                    <div class="grade-card">
+                        <h4>국어</h4>
+                        <p>논증하기, 단어의 구조와 품사, 토론</p>
+                    </div>
+                    <div class="grade-card">
+                        <h4>수학</h4>
+                        <p>일차함수, 일차방정식과 연립방정식, 도형의 성질, 확률</p>
+                    </div>
+                    <div class="grade-card">
+                        <h4>역사</h4>
+                        <p>문명의 발생, 세계 종교의 확산, 동아시아 세계</p>
+                    </div>
+                    <div class="grade-card">
+                        <h4>과학</h4>
+                        <p>물질의 구성, 전기와 자기, 수권과 해수의 순환, 태양계</p>
+                    </div>
+                    <div class="grade-card">
+                        <h4>영어</h4>
+                        <p>다양한 종류의 글 읽기, 의견 표현, 글쓰기 확장</p>
+                    </div>
+                    <div class="grade-card">
+                        <h4>정보</h4>
+                        <p>프로그래밍, 인공지능의 이해, 디지털 문화</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="grade3" class="grade-content">
+                <h3>중학교 3학년</h3>
+                <div class="grade-info">
+                    <div class="grade-card">
+                        <h4>국어</h4>
+                        <p>문장과 담화, 고전 문학, 매체 언어</p>
+                    </div>
+                    <div class="grade-card">
+                        <h4>수학</h4>
+                        <p>이차방정식, 이차함수, 삼각비, 원의 성질, 통계</p>
+                    </div>
+                    <div class="grade-card">
+                        <h4>역사</h4>
+                        <p>제국주의, 세계대전, 현대 세계의 변화</p>
+                    </div>
+                    <div class="grade-card">
+                        <h4>사회</h4>
+                        <p>헌법과 국가기관, 경제생활, 사회 변동</p>
+                    </div>
+                    <div class="grade-card">
+                        <h4>과학</h4>
+                        <p>화학 반응, 일과 에너지, 생식과 유전, 기권과 날씨</p>
+                    </div>
+                    <div class="grade-card">
+                        <h4>영어</h4>
+                        <p>고급 문법, 에세이 쓰기, 문학 작품 읽기</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 교육과정 설계 탭 -->
+        <section id="curriculum-design" class="tab-content">
+            <h2>국어과 교육과정 설계</h2>
+
+            <div class="info-box fade-in">
+                <h3>교육과정 설계의 개요</h3>
+                <p>2022 개정 교육과정에서 국어과는 미래 사회에 필요한 역량을 함양할 수 있도록 설계되었습니다.
+                   중학교 국어과 교육과정은 초등학교에서 학습한 기초 능력을 바탕으로,
+                   보다 심화된 국어 활동을 통해 의사소통 능력과 사고력을 발전시키는 것을 목표로 합니다.</p>
+            </div>
+
+            <div class="curriculum-structure fade-in">
+                <h3>국어과 6대 역량</h3>
+                <p class="section-desc">2022 개정 교육과정 총론의 핵심역량을 국어과 특성에 맞게 재구성한 역량입니다.</p>
+                <div class="competency-grid">
+                    <div class="competency-card">
+                        <div class="competency-icon">💡</div>
+                        <h4>비판적·창의적 사고 역량</h4>
+                        <p>다양한 상황이나 자료, 담화, 글을 주체적인 관점에서 해석하고 평가하여 새롭고 독창적인 의미를 부여하거나 만드는 능력</p>
+                    </div>
+                    <div class="competency-card">
+                        <div class="competency-icon">💻</div>
+                        <h4>디지털·미디어 역량</h4>
+                        <p>디지털 도구를 활용하여 필요한 정보와 자료를 수집·분석하고, 다양한 매체를 통해 의미를 이해·소통하며 매체 자료를 비판적으로 분석·평가하고 윤리적으로 이용·생산하는 능력</p>
+                    </div>
+                    <div class="competency-card">
+                        <div class="competency-icon">💬</div>
+                        <h4>의사소통 역량</h4>
+                        <p>음성 언어, 문자 언어, 기호와 매체 등을 활용하여 생각과 느낌, 경험을 표현하거나 이해하면서 의미를 구성하고 자아와 타인, 세계의 관계를 점검·조정하는 능력</p>
+                    </div>
+                    <div class="competency-card">
+                        <div class="competency-icon">🤝</div>
+                        <h4>공동체·대인관계 역량</h4>
+                        <p>공동체의 가치와 공동체 구성원의 다양성을 존중하고 상호 협력하며 관계를 맺고 갈등을 조정하는 능력</p>
+                    </div>
+                    <div class="competency-card">
+                        <div class="competency-icon">🎭</div>
+                        <h4>문화 향유 역량</h4>
+                        <p>국어로 형성·계승되는 다양한 문화를 이해하고 그 아름다움과 가치를 내면화하여 수준 높은 문화를 향유·생산하는 능력</p>
+                    </div>
+                    <div class="competency-card">
+                        <div class="competency-icon">🔍</div>
+                        <h4>자기 성찰·계발 역량</h4>
+                        <p>삶의 가치와 의미를 끊임없이 반성하고 탐색하며 변화하는 사회에서 필요한 재능과 자질을 계발하고 관리하는 능력</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-system fade-in">
+                <h3>내용 체계</h3>
+                <p class="section-desc">국어과 교육과정의 내용은 다음의 세 범주로 구성됩니다.</p>
+                <div class="system-grid">
+                    <div class="system-card">
+                        <h4>📚 지식·이해</h4>
+                        <p>국어 활동의 본질과 관련되는 지식을 다룹니다.</p>
+                        <ul>
+                            <li>듣기·말하기의 본질과 원리</li>
+                            <li>읽기·쓰기의 개념과 방법</li>
+                            <li>문법 지식과 언어 규칙</li>
+                            <li>문학의 본질과 갈래</li>
+                        </ul>
+                    </div>
+                    <div class="system-card">
+                        <h4>⚙️ 과정·기능</h4>
+                        <p>언어 활동의 수행 과정과 전략에 해당하는 내용입니다.</p>
+                        <ul>
+                            <li>의미 파악 및 추론하기</li>
+                            <li>비판적으로 분석·평가하기</li>
+                            <li>창의적으로 표현하기</li>
+                            <li>점검·조정하며 소통하기</li>
+                        </ul>
+                    </div>
+                    <div class="system-card">
+                        <h4>❤️ 가치·태도</h4>
+                        <p>국어 학습의 정의적 요소에 해당하는 내용입니다.</p>
+                        <ul>
+                            <li>국어에 대한 관심과 흥미</li>
+                            <li>의사소통의 윤리와 책임</li>
+                            <li>언어문화에 대한 감수성</li>
+                            <li>국어 사랑의 태도</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="achievement-section fade-in">
+                <h3>성취기준 구성</h3>
+                <div class="info-box">
+                    <p>성취기준은 학습자의 목표 도달과 역량 함양을 위하여 내용 체계의 '내용 요소'를 유기적으로 결합하여 구성합니다.</p>
+                    <ul>
+                        <li><strong>핵심 아이디어:</strong> 과목 학습을 통해 일반화할 수 있는 핵심 내용</li>
+                        <li><strong>내용 요소 통합:</strong> 두 개 범주 이상에서 선택·결합하여 통합적 교육 내용 구현</li>
+                        <li><strong>성취기준 해설:</strong> 성취기준에 대한 이해와 소통을 위한 보충 설명</li>
+                        <li><strong>적용 시 고려 사항:</strong> 성취기준 지도 시 유의할 사항 안내</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="grade-application fade-in">
+                <h3>중학교 국어 교육의 특징</h3>
+                <div class="pathway-grid">
+                    <div class="pathway-card">
+                        <div class="pathway-header humanities">
+                            <h4>듣기·말하기</h4>
+                        </div>
+                        <div class="pathway-body">
+                            <p>의사소통 맥락을 고려한 심화된 말하기·듣기 능력을 기릅니다.</p>
+                            <ul>
+                                <li>토의·토론 능력 심화</li>
+                                <li>면담 및 발표 기술</li>
+                                <li>공식적 담화 상황 대응</li>
+                                <li>매체를 활용한 의사소통</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="pathway-card">
+                        <div class="pathway-header science">
+                            <h4>읽기·쓰기</h4>
+                        </div>
+                        <div class="pathway-body">
+                            <p>다양한 유형의 글을 읽고 목적에 맞는 글쓰기 능력을 발전시킵니다.</p>
+                            <ul>
+                                <li>읽기 과정과 독서 방법</li>
+                                <li>글의 유형별 읽기 전략</li>
+                                <li>다양한 목적의 글쓰기</li>
+                                <li>고쳐쓰기와 자기 점검</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="pathway-card">
+                        <div class="pathway-header arts">
+                            <h4>문법·문학</h4>
+                        </div>
+                        <div class="pathway-body">
+                            <p>국어의 체계를 이해하고 문학을 깊이 있게 감상합니다.</p>
+                            <ul>
+                                <li>음운, 단어, 문장, 담화</li>
+                                <li>국어의 역사와 규범</li>
+                                <li>문학의 본질과 갈래별 특성</li>
+                                <li>문학 감상과 비평</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="career-link fade-in">
+                <h3>진로와의 연계</h3>
+                <div class="info-box highlight">
+                    <p>중학교 국어 교육은 고등학교 국어과 선택 과목 학습의 토대가 됩니다.</p>
+                    <ul>
+                        <li><strong>인문·사회 계열:</strong> 비판적 읽기, 논술, 토론 능력이 중요</li>
+                        <li><strong>예술·문화 계열:</strong> 문학 감상, 창작, 매체 활용 능력 강조</li>
+                        <li><strong>자연·공학 계열:</strong> 논리적 글쓰기, 정보 전달 능력 필요</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- 진로/고입 탭 -->
+        <section id="career" class="tab-content">
+            <h2>진로 및 고입 안내</h2>
+            <p class="section-desc fade-in">중학교 시기의 진로 탐색과 고등학교 진학 준비 가이드입니다.</p>
+
+            <div class="career-section fade-in">
+                <h3>자유학기제 안내</h3>
+                <div class="info-box highlight">
+                    <h4>자유학기제란?</h4>
+                    <p>중학교 1학년 1학기 또는 2학기 중 한 학기를 자유학기로 운영하여 학생 참여형 수업과 다양한 체험활동을 강화하는 제도입니다. 자유학기 동안에는 지필평가를 실시하지 않고 100% 수행평가로 평가합니다.</p>
+                </div>
+
+                <div class="change-items">
+                    <div class="change-item">
+                        <span class="change-icon">🎯</span>
+                        <div class="change-text">
+                            <h4>진로탐색활동</h4>
+                            <p>적성검사, 진로상담, 직업인 특강, 직업체험 등</p>
+                        </div>
+                    </div>
+                    <div class="change-item">
+                        <span class="change-icon">📚</span>
+                        <div class="change-text">
+                            <h4>주제선택활동</h4>
+                            <p>학생의 흥미와 관심사에 따른 심화 학습 프로그램</p>
+                        </div>
+                    </div>
+                    <div class="change-item">
+                        <span class="change-icon">🎨</span>
+                        <div class="change-text">
+                            <h4>예술·체육활동</h4>
+                            <p>다양한 예술 체험 및 스포츠 활동</p>
+                        </div>
+                    </div>
+                    <div class="change-item">
+                        <span class="change-icon">🤝</span>
+                        <div class="change-text">
+                            <h4>동아리활동</h4>
+                            <p>학생 주도의 동아리 구성 및 활동</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="career-section fade-in">
+                <h3>고등학교 유형 안내</h3>
+
+                <div class="pathway-grid">
+                    <div class="pathway-card">
+                        <div class="pathway-header science">
+                            <span class="pathway-icon">🏫</span>
+                            <h4>일반고등학교</h4>
+                        </div>
+                        <div class="pathway-content">
+                            <p class="pathway-desc">다양한 진로 선택이 가능한 보통교과 중심 학교</p>
+                            <div class="recommended-subjects">
+                                <h5>특징</h5>
+                                <ul>
+                                    <li>2022 개정 교육과정에 따른 고교학점제 전면 시행</li>
+                                    <li>학생 선택 중심의 다양한 선택과목 운영</li>
+                                    <li>대학 진학 및 취업 모두 가능</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="pathway-card">
+                        <div class="pathway-header humanities">
+                            <span class="pathway-icon">🔬</span>
+                            <h4>특수목적고등학교</h4>
+                        </div>
+                        <div class="pathway-content">
+                            <p class="pathway-desc">특정 분야 인재 양성을 위한 전문 교육</p>
+                            <div class="recommended-subjects">
+                                <h5>유형</h5>
+                                <ul>
+                                    <li><strong>과학고:</strong> 과학 영재 양성, 조기졸업 가능</li>
+                                    <li><strong>외국어고:</strong> 외국어 특기자 양성</li>
+                                    <li><strong>예술고/체육고:</strong> 예술·체육 영재 양성</li>
+                                    <li><strong>마이스터고:</strong> 산업 전문 기술 인력 양성</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="pathway-card">
+                        <div class="pathway-header arts">
+                            <span class="pathway-icon">⚙️</span>
+                            <h4>특성화고등학교</h4>
+                        </div>
+                        <div class="pathway-content">
+                            <p class="pathway-desc">소질과 적성에 맞는 직업 교육 중심</p>
+                            <div class="recommended-subjects">
+                                <h5>특징</h5>
+                                <ul>
+                                    <li>취업 중심 교육과정 운영</li>
+                                    <li>산업체 연계 현장실습</li>
+                                    <li>취업 후 대학 진학 가능</li>
+                                    <li>국가기술자격 취득 지원</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="pathway-card">
+                        <div class="pathway-header tech">
+                            <span class="pathway-icon">🎓</span>
+                            <h4>자율형고등학교</h4>
+                        </div>
+                        <div class="pathway-content">
+                            <p class="pathway-desc">학교 자율성을 바탕으로 한 다양한 교육</p>
+                            <div class="recommended-subjects">
+                                <h5>유형</h5>
+                                <ul>
+                                    <li><strong>자율형 사립고:</strong> 다양하고 특색 있는 교육과정</li>
+                                    <li><strong>자율형 공립고:</strong> 지역 특성에 맞는 교육</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="career-section fade-in">
+                <h3>고입 전형 안내</h3>
+
+                <div class="admission-types">
+                    <div class="admission-card">
+                        <h4>📋 일반전형 (추첨배정)</h4>
+                        <ul>
+                            <li>일반고 진학 시 거주지 기준 학군 배정</li>
+                            <li>지원한 학교 중 추첨으로 배정</li>
+                            <li>내신 성적과 관계없이 진학 가능</li>
+                        </ul>
+                        <div class="tip-box">
+                            <strong>TIP:</strong> 희망 학교의 교육과정, 동아리, 선택과목 등을 미리 확인하세요.
+                        </div>
+                    </div>
+
+                    <div class="admission-card">
+                        <h4>📝 특별전형</h4>
+                        <ul>
+                            <li>특목고, 특성화고, 자사고 등 지원 시</li>
+                            <li>학교별 자체 선발 기준 적용</li>
+                            <li>자기소개서, 면접, 내신 등 종합 평가</li>
+                        </ul>
+                        <div class="tip-box">
+                            <strong>TIP:</strong> 지원 학교의 전형 요강을 미리 확인하고 준비하세요.
+                        </div>
+                    </div>
+
+                    <div class="admission-card">
+                        <h4>🎯 영재학교/과학고 전형</h4>
+                        <ul>
+                            <li>수학·과학 영재성 평가</li>
+                            <li>영재성 검사, 캠프, 면접 등</li>
+                            <li>중학교 3학년 초에 원서 접수</li>
+                        </ul>
+                        <div class="tip-box">
+                            <strong>TIP:</strong> 중1~2학년부터 수학·과학 심화 학습과 탐구 경험을 쌓으세요.
+                        </div>
+                    </div>
+
+                    <div class="admission-card">
+                        <h4>🔧 마이스터고 전형</h4>
+                        <ul>
+                            <li>취업 의지와 적성 중심 평가</li>
+                            <li>출결, 봉사, 자기소개서, 면접</li>
+                            <li>졸업 후 우수 기업 취업 연계</li>
+                        </ul>
+                        <div class="tip-box">
+                            <strong>TIP:</strong> 관심 분야의 마이스터고를 미리 탐색하고 취업 연계 기업을 확인하세요.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="career-section fade-in">
+                <h3>학년별 진로 로드맵</h3>
+
+                <div class="roadmap">
+                    <div class="roadmap-item">
+                        <div class="roadmap-year">1학년</div>
+                        <div class="roadmap-content">
+                            <h4>자유학기와 탐색</h4>
+                            <ul>
+                                <li>자유학기제 활동 적극 참여</li>
+                                <li>다양한 진로 탐색 활동</li>
+                                <li>적성검사, 흥미검사</li>
+                                <li>기초 학력 다지기</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="roadmap-item">
+                        <div class="roadmap-year">2학년</div>
+                        <div class="roadmap-content">
+                            <h4>심화와 구체화</h4>
+                            <ul>
+                                <li>진로 방향 구체화</li>
+                                <li>관심 분야 심화 학습</li>
+                                <li>고등학교 유형 탐색</li>
+                                <li>교내 활동 참여 확대</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="roadmap-item">
+                        <div class="roadmap-year">3학년</div>
+                        <div class="roadmap-content">
+                            <h4>결정과 준비</h4>
+                            <ul>
+                                <li>진학할 고등학교 결정</li>
+                                <li>특목고/특성화고 원서 준비</li>
+                                <li>자기소개서 작성</li>
+                                <li>면접 준비</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 참고 자료 섹션 -->
+        <section class="resources-section fade-in">
+            <h2>참고 자료 및 유용한 링크</h2>
+
+            <div class="resources-grid">
+                <div class="resource-card">
+                    <div class="resource-icon">🏛️</div>
+                    <h4>교육부</h4>
+                    <p>2022 개정 교육과정 공식 자료</p>
+                    <a href="https://www.moe.go.kr" target="_blank" class="resource-link">바로가기 →</a>
+                </div>
+                <div class="resource-card">
+                    <div class="resource-icon">📊</div>
+                    <h4>커리어넷</h4>
+                    <p>진로정보, 적성검사, 직업정보</p>
+                    <a href="https://www.career.go.kr" target="_blank" class="resource-link">바로가기 →</a>
+                </div>
+                <div class="resource-card">
+                    <div class="resource-icon">🎓</div>
+                    <h4>하이파이브</h4>
+                    <p>고입 정보 포털</p>
+                    <a href="https://www.hifive.go.kr" target="_blank" class="resource-link">바로가기 →</a>
+                </div>
+                <div class="resource-card">
+                    <div class="resource-icon">📖</div>
+                    <h4>국가교육과정정보센터</h4>
+                    <p>교육과정 원문 및 해설서</p>
+                    <a href="https://ncic.re.kr" target="_blank" class="resource-link">바로가기 →</a>
+                </div>
+                <div class="resource-card">
+                    <div class="resource-icon">🔬</div>
+                    <h4>과학영재교육원</h4>
+                    <p>영재교육 정보</p>
+                    <a href="https://www.ksef.or.kr" target="_blank" class="resource-link">바로가기 →</a>
+                </div>
+                <div class="resource-card">
+                    <div class="resource-icon">💻</div>
+                    <h4>꿈길</h4>
+                    <p>진로체험 통합 플랫폼</p>
+                    <a href="https://www.ggoomgil.go.kr" target="_blank" class="resource-link">바로가기 →</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <p>© 2024 교육과정 안내 | 교육부 2022 개정 교육과정 기반</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
